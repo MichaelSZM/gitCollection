@@ -1,1 +1,9 @@
-just for a test
+error: src refspec master does not match any.
+遇到这种错误：解决办法
+先 git add xxx    //添加到添加到本地仓库的 缓存区
+接着 git commit xxx   //提交到本地仓库的 HEAD 中
+
+
+
+
+最后 git push origin master   //提交到远端仓库
